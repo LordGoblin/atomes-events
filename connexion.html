@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <link rel="stylesheet" href="style.css" />
+        <title>test css</title>
+    </head>
+
+    <body>
+      <div class="d-flex justify-content-center">
+        <div class="conteneur-log border border-primary p-3 pr-5 pl-5 border bg-primary text-secondary text-center">
+          <div></div>
+              <h2>Sign up</h2>
+
+          <form class="new_user" id="new_user" action="/users" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="NWVK70/8CteSPioStY+jIqiDzFFlRrAH1h8OypbunNN2MIQs7Uba/fGL4CUabUJYNeII3tTOqy7Qp3qtu39peQ==" />
+            
+
+            <div class="field pt-4">
+              <label for="user_email">Email</label><br />
+              <input class="shad" autofocus="autofocus" autocomplete="email" type="email" value="" name="user[email]" id="user_email" />
+            </div>
+
+            <div class="field pt-4 ">
+              <label for="user_password">Password</label>
+              <em>(6 characters minimum)</em>
+              <br />
+              <input class="shad" autocomplete="current-password" type="password" name="user[password]" id="user_password" />
+            </div>
+
+            <div class="actions">
+              <input class="btn btn-outline-secondary mt-4 shad" type="submit" name="commit" value="Log in" data-disable-with="Log in" />
+            </div>
+          </form>
+          </div>
+        </div>
+      </div>
+    </body>
+</html>
