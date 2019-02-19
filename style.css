@@ -2752,12 +2752,13 @@ fieldset:disabled a.btn {
   color: #fff;
   background-color: #696BB6;
   border-color: #696BB6;
+  border-radius: 20px;
 }
 
 .btn-warning:hover {
-  color: #fff;
-  background-color: #ed9d2b;
-  border-color: #ec971f;
+  color: #696BB6;
+  background-color: transparent;
+  border-color: #696BB6;
 }
 
 .btn-warning:focus, .btn-warning.focus {
@@ -7044,7 +7045,8 @@ button.bg-dark:focus {
 }
 
 .border-secondary {
-  border-color: #f8f9fa !important;
+  border-color: #696BB6 !important;
+  border-radius: 20px;
 }
 
 .border-success {
@@ -10831,4 +10833,12 @@ label,
 }
 .shad {
   box-shadow: 4px 4px 15px black inset;
+}
+.content {
+  height: 40%;
+}
+.content-lol {
+  width: 100%;
+  height: 50vh;
+  overflow: hidden;
 }
