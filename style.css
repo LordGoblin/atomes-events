@@ -10860,3 +10860,6 @@ label,
 .border-de-fatigue-left {
   border-left: 5px solid grey;
 }
+.bord-dur {
+  border-top: 5px solid grey;
+}
